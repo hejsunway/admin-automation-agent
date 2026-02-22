@@ -1,21 +1,17 @@
 {
-  "name": "admin-automation-agent",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
   "dependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "@prisma/client": "latest",
+    "bcryptjs": "latest",
+    "zod": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "tailwindcss": "latest",
-    "prisma": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest"
-  }
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  },
+  "scripts": {} // add your custom scripts here
 }
